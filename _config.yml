@@ -7,5 +7,4 @@ markdown: kramdown
 # Includes an icon in the footer for each user name you enter
 footer-links:
   github: arfritzz
-  email: a987f052@ku.edu
 
