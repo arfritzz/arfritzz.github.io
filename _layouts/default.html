@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <title>{{ page.title }} </title>
-      <!-- link to main stylesheet -->
-      <link rel="stylesheet" type="text/css" href="/css/main.css">
+<footer class="footer">
+  {% if site.footer-links.github %}<a href="http://github.com/{{ site.footer-links.github }}">{% include svg-icons/github.html %}</a>{% endif %}
+</footer>
