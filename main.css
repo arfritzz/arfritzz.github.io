@@ -28,5 +28,6 @@ li {
 
   .light-theme {
       color:#5da2d5;
-      background:var(--pink);
+      background:#f78888;
+      border: #90ccf4;
   }
