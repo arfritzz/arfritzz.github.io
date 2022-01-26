@@ -25,17 +25,17 @@ li {
   #msg {
     font-family: monospace;
   }
+  
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #5da2d5;
+    color: #ececec;
+    font-size: 30px;
+}
 
   .light-theme {
       color:#5da2d5;
       background:#ececec;
       border: #90ccf4;
-  }
-
-  .header {
-      padding: 60px;
-      text-align: center;
-      background: #5da2d5;
-      color: #ececec;
-      font-size: 30px;
   }
