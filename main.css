@@ -1,3 +1,11 @@
+:root{
+    --yellow: #f3d250;
+    --pink: #f78888;
+    --lighterblue: #90ccf4;
+    --darkerblue: #5da2d5;
+    --offwhite: #ececec;
+}
+
 body {
     font-family: monospace;
 }
@@ -16,4 +24,9 @@ li {
   
   #msg {
     font-family: monospace;
+  }
+
+  .light-theme {
+      color:#5da2d5;
+      background: #ececec;
   }
