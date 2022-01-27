@@ -21,28 +21,39 @@
     <a href="research.html">Research</a>
   </div>
 
-  <body class="light-theme">
-    <h1>Hello, nice to *virtually* see you! </h1>
-    <p id="msg">If you want to learn more about me, simply click the "About Me" tab. If you're here because you've been dreaming to know about my thoughts on formal methods and trusted computing, perhaps my "Blog" is the best place for you. To see my current research publications, select "Research" </p>
-  </body>
+  <div class="row">
+    <div class="column">
+      <body class="light-theme">
+        <h1>Hello, nice to *virtually* see you! </h1>
+        <p id="msg">If you want to learn more about me, simply click the "About Me" tab. If you're here because you've been dreaming to know about my thoughts on formal methods and trusted computing, perhaps my "Blog" is the best place for you. To see my current research publications, select "Research" </p>
+      </body>
 
 
-  <div class="container">
-    <form action="mailto:arfritzz@ku.edu">
+    </div>
 
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="column">
+      <div class="container">
+        <form action="mailto:arfritzz@ku.edu">
+    
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+    
+          <input type="submit" value="Submit">
+    
+        </form>
+      </div>
+    </div>
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
-      <input type="submit" value="Submit">
-
-    </form>
   </div>
+
+
 
 
 </html>
