@@ -1,20 +1,6 @@
-column {
-    float: left;
+div {
+    border-left: solid 80px;
+    border-right: double 80px;
+    border-color: #90ccf4;
+    width: 200px;
 }
-  
-.left, .right {
-    width: 25%;
-}
-  
-.middle {
-    width: 50%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
-.w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#90ccf4!important}
